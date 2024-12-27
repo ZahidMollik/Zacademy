@@ -61,4 +61,48 @@ body{
   background-color:blue;
 }
 
+.banner-content{
+  margin-top: 170px;
+}
+.banner-content h1{
+  font-size: 32px;
+  padding-top: 10px;
+  line-height: 2;
+  color: #212121;
+}
+
+.banner-content p{
+  font-size: 18px;
+  padding-top: 10px;
+  color: #212121;
+}
+.banner-content button{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+  background-color: #ff6929;
+  border-radius: 10px;
+}
+.banner-content button:hover{
+
+  background-color: transparent;
+  color:#212121;
+
+}
+
+.banner-image img{
+  padding: 25px;
+  width:55vw;
+  border-radius: 100px;
+  mix-blend-mode: multiply;
+}
+.Banner{
+  display: flex;
+  padding: 100px;
+}
+
+
+
 
