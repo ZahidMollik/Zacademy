@@ -16,6 +16,7 @@ body{
   border-bottom: 1px solid #cccc ;
   width: 100%;
   position: fixed;
+  background-color:#fcf1eb ;
 }
 
 .nav-links a{
@@ -94,14 +95,38 @@ body{
 
 .banner-image img{
   padding: 25px;
-  width:55vw;
-  border-radius: 100px;
-  mix-blend-mode: multiply;
+  width:58vw;
 }
 .Banner{
   display: flex;
   padding: 100px;
 }
+
+.client-section{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.c-logo img{
+  width: 200px;
+  max-height: 50px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+.client-section h3{
+  font-size: 36px;
+  padding: 10px;
+}
+.client-section p{
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
 
 
 
