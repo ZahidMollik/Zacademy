@@ -63,7 +63,8 @@ body{
 }
 
 .banner-content{
-  margin-top: 170px;
+  margin-top: 20px;
+  padding-left:200px ;
 }
 .banner-content h1{
   font-size: 32px;
@@ -94,12 +95,14 @@ body{
 }
 
 .banner-image img{
+  margin-top: 50px;
   padding: 25px;
   width:58vw;
 }
 .Banner{
   display: flex;
-  padding: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .client-section{
@@ -172,12 +175,12 @@ body{
   color:#4D4D4D;
 }
 .pb-content h2{
-  width: 370px;
+  width: 500px;
   margin-bottom: 10px;
-  font-size: 26px;
+  font-size: 36px;
 }
 .pb-content p{
-  font-size: 12px;
+  font-size: 14px;
   padding-bottom: 10px;
 }
 
@@ -226,6 +229,117 @@ body{
 }
 .hb-data p{
   font-size: 12px;
+}
+
+.future-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fsection-txt{
+  text-align: center;
+  width: 780px;
+}
+.fsection-txt h2{
+ font-size: 38px;
+ color:#4D4D4D;
+ padding-bottom: 20px;
+}
+.fsection-txt p{
+ font-size: 16px;
+ padding-bottom: 20px;
+}
+
+.f-content img{
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+  z-index: -1;
+}
+
+.content-txt{
+  width: 210px;
+  height: 150px;
+  border:1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: -50px;
+  margin-left:20px;
+  background-color: #fcf1eb;
+}
+
+.content-txt:hover{
+  margin-top: -55px;
+  background-color: #d0cdcd;
+  color:white;
+}
+
+.content-txt p{
+  font-size: 14px;
+  padding: 15px;
+}
+.content-txt a{
+  font-size: 15px;
+  text-decoration: none;
+  color: green;
+  font-weight: 600;
+}
+
+.f-container{
+  display: flex;
+  gap:40px;
+}
+
+.contract img{
+  width: 650px;
+}
+
+.contract{
+  background-color: #cccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+form h1{
+  text-align: center;
+}
+
+.int-field{
+  width: 450px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+textarea{
+  height: 90px;
+  text-align: center;
+  padding: 20px;
+}
+#c-btn{
+  padding: 10px;
+  font-weight: bold;
+  background-color: #ff6929;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#c-btn:hover{
+  background-color: transparent;
 }
 
 
