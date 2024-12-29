@@ -31,17 +31,16 @@ body{
   color: #ff6929;
 }
 
-.logo a{
+.logo a {
   display: inline-block;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color:#212121;
+  color: #212121;
 }
-.logo a::first-letter{
-  font-size: 35px;
-  font-style: italic;
-  color:#ff6929;
+.logo a::first-letter {
+  font-size: 40px;
+  color: #ff6929;
 }
 
 .btn a{
@@ -66,19 +65,19 @@ body{
   margin-top: 20px;
   padding-left:200px ;
 }
-.banner-content h1{
+.banner-content h1 {
   font-size: 32px;
   padding-top: 10px;
   line-height: 2;
   color: #212121;
 }
 
-.banner-content p{
+.banner-content p {
   font-size: 18px;
   padding-top: 10px;
   color: #212121;
 }
-.banner-content button{
+.banner-content button {
   margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
@@ -87,55 +86,54 @@ body{
   background-color: #ff6929;
   border-radius: 10px;
 }
-.banner-content button:hover{
-
+.banner-content button:hover {
   background-color: transparent;
-  color:#212121;
-
+  color: #212121;
 }
 
-.banner-image img{
+.banner-image img {
   margin-top: 50px;
   padding: 25px;
-  width:58vw;
+  width: 58vw;
 }
-.Banner{
+.Banner {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.client-section{
+.client-section {
   height: 60vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
-.c-logo img{
+.c-logo img {
   width: 200px;
   max-height: 50px;
   object-fit: cover;
   margin-left: 30px;
 }
 
-.client-section h3{
+.client-section h3 {
   font-size: 36px;
   padding: 10px;
 }
-.client-section p{
+.client-section p {
   font-size: 18px;
   padding: 10px;
   margin-bottom: 30px;
 }
 
-.pb-card img{
+.pb-card img {
   width: 45px;
   height: 39px;
 }
 
-.pb-card{
+.pb-card {
   padding: 10px;
   width: 220px;
   height: 185px;
@@ -145,65 +143,65 @@ body{
   border-radius: 5px;
 }
 
-.pb-card h3{
+.pb-card h3 {
   font-size: 20px;
   padding: 10px;
-  color:#4D4D4D
+  color: #4d4d4d;
 }
-.pb-card p{
+.pb-card p {
   font-size: 12px;
-  color:#717171
+  color: #717171;
 }
 
-.pb-container{
+.pb-container {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  gap:120px;
+  gap: 120px;
 }
 
-.pb-section{
+.pb-section {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
-.pb-content{
+.pb-content {
   text-align: center;
-  color:#4D4D4D;
+  color: #4d4d4d;
 }
-.pb-content h2{
+.pb-content h2 {
   width: 500px;
   margin-bottom: 10px;
   font-size: 36px;
 }
-.pb-content p{
+.pb-content p {
   font-size: 14px;
   padding-bottom: 10px;
 }
 
-.hb-content img{
+.hb-content img {
   width: 33px;
   height: 33px;
 }
 
-.hb-container{
+.hb-container {
   width: 30%;
   display: flex;
-  gap:40px;
+  gap: 40px;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.hb-content{
+.hb-content {
   display: flex;
   padding: 15px;
   gap: 10px;
 }
 
-.hb-section{
+.hb-section {
   height: 180px;
   display: flex;
   justify-content: center;
@@ -212,26 +210,26 @@ body{
   background-color: #ff6929;
 }
 
-.hb-title{
+.hb-title {
   width: 320px;
   padding: 10px;
 }
-.hb-title h2{
+.hb-title h2 {
   font-size: 26px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
-.hb-title p{
+.hb-title p {
   font-size: 12px;
 }
 
-.hb-data h3{
+.hb-data h3 {
   font-size: 20px;
 }
-.hb-data p{
+.hb-data p {
   font-size: 12px;
 }
 
-.future-section{
+.future-section {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -239,21 +237,21 @@ body{
   align-items: center;
 }
 
-.fsection-txt{
+.fsection-txt {
   text-align: center;
   width: 780px;
 }
-.fsection-txt h2{
- font-size: 38px;
- color:#4D4D4D;
- padding-bottom: 20px;
+.fsection-txt h2 {
+  font-size: 38px;
+  color: #4d4d4d;
+  padding-bottom: 20px;
 }
-.fsection-txt p{
- font-size: 16px;
- padding-bottom: 20px;
+.fsection-txt p {
+  font-size: 16px;
+  padding-bottom: 20px;
 }
 
-.f-content img{
+.f-content img {
   width: 250px;
   height: 180px;
   object-fit: cover;
@@ -262,63 +260,63 @@ body{
   z-index: -1;
 }
 
-.content-txt{
+.content-txt {
   width: 210px;
   height: 150px;
-  border:1px solid #ccc;
+  border: 1px solid #ccc;
   text-align: center;
   padding: 10px;
   border-radius: 10px;
   margin-top: -50px;
-  margin-left:20px;
+  margin-left: 20px;
   background-color: #fcf1eb;
 }
 
-.content-txt:hover{
+.content-txt:hover {
   margin-top: -55px;
   background-color: #d0cdcd;
-  color:white;
+  color: white;
 }
 
-.content-txt p{
+.content-txt p {
   font-size: 14px;
   padding: 15px;
 }
-.content-txt a{
+.content-txt a {
   font-size: 15px;
   text-decoration: none;
   color: green;
   font-weight: 600;
 }
 
-.f-container{
+.f-container {
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
 
-.contract img{
+.contact img {
   width: 650px;
 }
 
-.contract{
+.contact {
   background-color: #cccc;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-form{
+form {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
 }
 
-form h1{
+form h1 {
   text-align: center;
 }
 
-.int-field{
+.int-field {
   width: 450px;
   height: 50px;
   text-align: center;
@@ -342,7 +340,70 @@ textarea{
   background-color: transparent;
 }
 
+.fo-icon a {
+  color: white;
+  padding: 3px;
+}
+.footer {
+  background-color: #212121;
+  color: #d0cdcd;
+}
 
+.fo-container {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.fo-links {
+  display: flex;
+  flex-direction: column;
+}
+.fo-content-links h3 {
+  padding-bottom: 16px;
+}
+.fo-links a {
+  text-decoration: none;
+  color: #d0cdcd;
+  padding: 5px;
+}
+.fo-links a:hover {
 
+  color: #ff6929;
+}
+
+.fo-content h1 {
+  margin-top: -70px;
+  padding-bottom: 40px;
+}
+.fo-content h1::first-letter {
+  color: #ff6929;
+  font-size: 50px;
+}
+
+.fo-icon {
+  padding-top: 30px;
+}
+
+.subs {
+  margin-top: -130px;
+}
+.subs input {
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.subs h3 {
+  padding-bottom: 10px;
+}
+.subs button {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #ff6929;
+  color: white;
+}
+.subs button:hover {
+  background-color: red;
+}
 
