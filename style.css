@@ -487,12 +487,15 @@ textarea{
 }
 
 @media screen and (max-width: 660px) {
- 
+  #nav-bar{
+    padding: 10px;
+  }
   .nav-links {
     display: flex;
   }
   .nav-links a{
     font-size: 10px;
+    margin: 8px 5px;
   }
   
   .logo a {
@@ -510,6 +513,16 @@ textarea{
     font-size: 10px;
     width: 60px;
     margin-left: 10px;
+  }
+  .banner-content h1{
+    font-size: 28px;
+  }
+  .banner-content p{
+    font-size: 20px;
+  }
+  .banner-content button {
+    margin-top: 15px;
+    font-size: 14px;
   }
 
   .client-section{
